@@ -42,3 +42,41 @@ Pour lancer ce projet en local, suivez les instructions ci-dessous.
 ```bash
 git clone [https://github.com/ton-pseudo/task-manager-app.git](https://github.com/ton-pseudo/task-manager-app.git)
 cd task-manager-app
+``` 
+
+### 2. Lancer le Back-end
+```bash
+cd api
+npm install
+npm run start:dev
+```
+Le serveur se lance généralement sur le port http://localhost:3000.
+
+### 3. Lancer le Front-end
+```bash
+# Ouvrez un nouveau terminal à la racine du projet
+cd client
+npm install
+npm run dev
+```
+L'application est accessible sur http://localhost:3000 (ou 3001 si conflit).
+
+## 📝 Fonctionnalités (En cours de développement)
+
+[ ] Inscription et Connexion sécurisée (Auth JWT)
+
+[ ] Création, modification et suppression de tâches (CRUD)
+
+[ ] Filtrage des tâches par statut (À faire / En cours / Terminé)
+
+[ ] Interface responsive (Mobile / Desktop)
+
+## 👤 Contact
+
+Sylvie HOAREAU
+
+    LinkedIn : [Lien vers mon profil]
+
+    Portfolio : [Lien vers mon portfolio]
+
+
